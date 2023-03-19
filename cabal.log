@@ -1,0 +1,17 @@
+Resolving dependencies...
+Build profile: -w ghc-9.2.6 -O1
+In order, the following will be built (use -v for more details):
+ - broken-0.1.0.0 (lib:CustomPrelude) (first run)
+ - broken-0.1.0.0 (lib) (first run)
+Configuring library 'CustomPrelude' for broken-0.1.0.0..
+Warning: The 'license-file' field refers to the file 'LICENSE' which does not
+exist.
+Preprocessing library 'CustomPrelude' for broken-0.1.0.0..
+Building library 'CustomPrelude' for broken-0.1.0.0..
+[1 of 1] Compiling CustomPrelude    ( prelude/CustomPrelude.hs, /home/user/sources/hls-minimal-reproducible-example/dist-newstyle/build/x86_64-linux/ghc-9.2.6/broken-0.1.0.0/l/CustomPrelude/build/CustomPrelude/CustomPrelude.o, /home/user/sources/hls-minimal-reproducible-example/dist-newstyle/build/x86_64-linux/ghc-9.2.6/broken-0.1.0.0/l/CustomPrelude/build/CustomPrelude/CustomPrelude.dyn_o )
+Configuring library for broken-0.1.0.0..
+Warning: The 'license-file' field refers to the file 'LICENSE' which does not
+exist.
+Preprocessing library for broken-0.1.0.0..
+Building library for broken-0.1.0.0..
+[1 of 1] Compiling MyLib            ( src/MyLib.hs, /home/user/sources/hls-minimal-reproducible-example/dist-newstyle/build/x86_64-linux/ghc-9.2.6/broken-0.1.0.0/build/MyLib.o, /home/user/sources/hls-minimal-reproducible-example/dist-newstyle/build/x86_64-linux/ghc-9.2.6/broken-0.1.0.0/build/MyLib.dyn_o )
