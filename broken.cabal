@@ -1,0 +1,27 @@
+cabal-version:      3.4
+name:               broken
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+author:             me
+maintainer:         me
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+
+library
+    exposed-modules:  MyLib
+    default-language: Haskell2010
+    build-depends:
+        base ^>=4.16.4.0
+        , broken:CustomPrelude
+    hs-source-dirs:   src
+    mixins:
+        base hiding (Prelude)
+        , broken:CustomPrelude (CustomPrelude as Prelude)
+
+library CustomPrelude
+    build-depends:    base ^>=4.16.4.0
+    hs-source-dirs:   prelude
+    default-language: Haskell2010
+    exposed-modules:  CustomPrelude
+    
