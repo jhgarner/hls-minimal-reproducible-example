@@ -1,3 +1,5 @@
+Warning: The package list for 'hackage.haskell.org' is 15 days old.
+Run 'cabal update' to get the latest list of available packages.
 Resolving dependencies...
 Build profile: -w ghc-9.2.6 -O1
 In order, the following will be built (use -v for more details):
